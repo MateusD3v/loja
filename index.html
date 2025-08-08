@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Store - Sua Loja de Produtos Digitais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-store"></i> Digital Store</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></button>
+                <button class="login-btn"><i class="fas fa-user"></i> Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Compre, use e economize muito mais!</h2>
+                <p>Os melhores produtos digitais com preços incríveis</p>
+                <div class="hero-icons">
+                    <div class="icon-item">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Streaming</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-music"></i>
+                        <span>Música</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Games</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>🎁🍀 NOVIDADES</h2>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">🔥 OFERTA</div>
+                    <div class="product-image">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>🍀 CAIXA PIX - de R$5 até R$999 🔥</h3>
+                        <div class="price">
+                            <span class="old-price">R$ 1,50</span>
+                            <span class="current-price">R$ 1,00</span>
+                        </div>
+                        <button class="buy-btn">Comprar Agora</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-badge">🍀 GARANTIDO</div>
+                    <div class="product-image">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>📦 CAIXA DE ASSINATURAS - 100% DE CHANCE 🍀</h3>
+                        <div class="price">
+                            <span class="old-price">R$ 5,10</span>
+                            <span class="current-price">R$ 3,40</span>
+                        </div>
+                        <button class="buy-btn">Comprar Agora</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-badge">📶 ILIMITADO</div>
+                    <div class="product-image">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>📶 INTERNET ILIMITADA</h3>
+                        <div class="price">
+                            <span class="old-price">R$ 11,85</span>
+                            <span class="current-price">R$ 7,90</span>
+                        </div>
+                        <div class="product-stats">
+                            <span class="stock">100+ em estoque</span>
+                            <span class="sales">+645 vendas</span>
+                        </div>
+                        <button class="buy-btn">Comprar Agora</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-badge">🎵 PREMIUM</div>
+                    <div class="product-image">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>🎵 SPOTIFY PREMIUM - 1 ANO</h3>
+                        <div class="price">
+                            <span class="old-price">R$ 25,00</span>
+                            <span class="current-price">R$ 15,90</span>
+                        </div>
+                        <button class="buy-btn">Comprar Agora</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-badge">🎮 GAMES</div>
+                    <div class="product-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>🎮 XBOX GAME PASS - 3 MESES</h3>
+                        <div class="price">
+                            <span class="old-price">R$ 45,00</span>
+                            <span class="current-price">R$ 29,90</span>
+                        </div>
+                        <button class="buy-btn">Comprar Agora</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-badge">📺 STREAMING</div>
+                    <div class="product-image">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>📺 NETFLIX PREMIUM - 6 MESES</h3>
+                        <div class="price">
+                            <span class="old-price">R$ 89,90</span>
+                            <span class="current-price">R$ 49,90</span>
+                        </div>
+                        <button class="buy-btn">Comprar Agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Entrega Imediata</h3>
+                    <p>Receba o seu produto imediatamente após o pagamento.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança Total</h3>
+                    <p>Seus dados são criptografados de ponta-à-ponta durante todo o processo.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Formas de Pagamento</h3>
+                    <p>Aceitamos os meios de pagamentos mais populares!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Digital Store</h3>
+                    <p>Sua loja de produtos digitais com os melhores preços do mercado.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-envelope"></i> contato@digitalstore.com</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - Digital Store. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
